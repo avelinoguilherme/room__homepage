@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Room homepage</title>
+
+    <link rel="stylesheet" href="components/css/firstContainer.css" />
+    <link rel="stylesheet" href="components/css/secondContainer.css" />
+    <link rel="stylesheet" href="components/css/hamburguer.css" />
+    <link rel="stylesheet" href="components/css/mobile.css" />
+    <link rel="stylesheet" href="components/css/ipad.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper"></div>
+      <div class="navBar">
+
+        <button class="navBar-btn"></button>
+
+        <div class="logo">
+          <a href="#">
+            <img src="assets/icons/logo.svg" alt="Logotipo da Room" />
+          </a>
+        </div>
+
+        <nav class="navegacao">
+          <ul class="navegacao__item" id="navegacao__item">
+            <li>
+              <a class="navegacao__item__action" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="navegacao__item__action" href="#shop">Shop</a>
+            </li>
+            <li>
+              <a class="navegacao__item__action" href="#about">About</a>
+            </li>
+            <li>
+              <a class="navegacao__item__action" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="slider">
+        <div class="slider-container">
+          <div class="slider__content">
+            <picture class="slider-img img--one active">
+              <source
+                media="(max-width: 400px)"
+                srcset="assets/images/mobile-image-hero-1.jpg"
+              />
+              <img
+                class="img img--one"
+                src="assets/images/desktop-image-hero-1.jpg"
+              />
+            </picture>
+
+            <picture class="slider-img img--one">
+              <source
+                media="(max-width: 400px)"
+                srcset="assets/images/mobile-image-hero-2.jpg"
+              />
+              <img
+                class="img img--one"
+                src="assets/images/desktop-image-hero-2.jpg"
+              />
+            </picture>
+
+            <picture class="slider-img img--one">
+              <source
+                media="(max-width: 400px)"
+                srcset="assets/images/mobile-image-hero-3.jpg"
+              />
+              <img
+                class="img img--one"
+                src="assets/images/desktop-image-hero-3.jpg"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <div class="contentBx">
+          <div class="contentBx--slide">
+            <section class="hero hero-1 active" id="hero">
+              <h1 id="title">Discover innovative ways to decorate</h1>
+              <p id="paragraph">
+                We provide unmatched quality, comfort, and style for property
+                owners across the country. Our experts combine form and function
+                in bringing your vision to life. Create a room in your own style
+                with our collection and make your property a reflection of you
+                and what you love.
+              </p>
+              <a href="#shop-now">
+                Shop Now
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </section>
+            <section class="hero hero-2" id="hero">
+              <h1>We are available all across the globe</h1>
+              <p>
+                With stores all over the world, it's easy for you to find
+                furniture for your home or place of business. Locally, we’re in
+                most major cities throughout the country. Find the branch
+                nearest you using our store locator. Any questions? Don't
+                hesitate to contact us today.
+              </p>
+              <a href="#shop-now">
+                Shop Now
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </section>
+            <section class="hero hero-3" id="hero">
+              <h1>Manufactured with the best materials</h1>
+              <p>
+                Our modern furniture store provide a high level of quality. Our
+                company has invested in advanced technology to ensure that every
+                product is made as perfect and as consistent as possible. With
+                three decades of experience in this industry, we understand what
+                customers want for their home and office.
+              </p>
+              <a href="#shop-now">
+                Shop Now
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </section>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="btnBackward btn" id="btnBackward"></button>
+          <button class="btnFoward btn" id="btnFoward"></button>
+        </div>
+      </header>
+
+      <section class="second__container">
+        <img src="assets/images/image-about-dark.jpg" alt="Image Dark Room" class="second__container--firstImg" />
+
+        <div class="col col-2">
+          <h2>About our Furniture</h2>
+          <p>
+            Our multifunctional collection blends design and function to suit
+            your individual taste. Make each room unique, or pick a cohesive
+            theme that best express your interests and what inspires you. Find
+            the furniture pieces you need, from traditional to contemporary
+            styles or anything in between. Product specialists are available to
+            help you create your dream space.
+          </p>
+        </div>
+
+        <img src="assets/images/image-about-light.jpg" alt="Image Light Room" class="second__container--secondImg"/>
+      </section>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ae07d15736.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/hamburguer.js"></script>
+    <script src="js/sliderImg.js"></script>
+    <script src="js/sliderText.js"></script>
+  </body>
+</html>
