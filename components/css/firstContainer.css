@@ -11,10 +11,6 @@
     transition: all .5s;
 }
 
-.navBar-btn {
-    display: none;
-}
-
 .slider {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -176,6 +172,6 @@
     content: url(../../assets/icons/icon-angle-left.svg);
 }
 
-.hamburguer {
+.navBar-btn {
     display: none;
 }
