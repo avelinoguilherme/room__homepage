@@ -69,6 +69,10 @@
         background-color: #fff;
         left: 0;
     }
+    
+    .navBar-btn {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1430px) and (max-width: 1920px) {
@@ -147,6 +151,10 @@
 
     .hero p {
         font-size: 1rem;
+    }
+    
+     .navBar-btn {
+        display: none;
     }
 }
 
