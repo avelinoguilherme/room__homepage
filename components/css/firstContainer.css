@@ -11,6 +11,10 @@
     transition: all .5s;
 }
 
+.navBar-btn {
+    display: none;
+}
+
 .slider {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
