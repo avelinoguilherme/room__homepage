@@ -1,3 +1,157 @@
+@media only screen and (min-width: 1921px) {
+    .container {
+        grid-template-rows: 1.4fr 0.6fr;
+    }
+
+    .slider {
+        grid-template-rows: 1fr min-content;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    
+    .slider-container {
+        grid-column: 2/6;
+    }
+
+    .wrapper {
+        background-color: black;
+        z-index: -1;
+    }
+
+    .contentBx {
+        grid-column: 6/10;
+        background-color: #fff;
+    }
+
+    .hero {
+        padding: 0 10rem;
+    }
+
+    .hero h1 {
+        font-size: 3.3rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .second__container {
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    .second__container--firstImg {
+        grid-column: 2/4;
+    }
+
+    .second__container--secondImg {
+        grid-column: 8/10;
+    }
+
+    .col-2 {
+        grid-column: 4/8;
+        background-color: hsla(0, 0%, 92%, 0.736);
+    }
+
+    .col-2 h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    .col-2 p {
+        font-size: 1rem;
+    }
+
+    .navBar {
+        padding-left: 20rem;
+    }
+
+    .buttons {
+        grid-column: 6/10;
+        background-color: #fff;
+        left: 0;
+    }
+}
+
+@media only screen and (min-width: 1430px) and (max-width: 1920px) {
+    .wrapper {
+        background-color: rgb(0, 0, 0);
+        z-index: -1;
+    }
+    
+    .container {
+        grid-template-rows: 1.2fr 0.8fr;
+    }
+    
+    .slider {
+        grid-template-columns: repeat(9, 1fr);
+    }
+
+    .slider-container {
+        grid-column: 2/6;
+    }
+
+    .contentBx {
+        grid-column: 6/9;
+    }
+
+    .second__container{
+        grid-template-columns: repeat(9, 1fr);
+    }
+
+    .second__container--firstImg{
+        grid-column: 2/4;
+    }
+
+    .col-2 {
+        grid-column: 4/7;
+        background-color: hsla(0, 0%, 92%, 0.736);
+    }
+
+    .col-2 h2 {
+        font-size: 1.1rem;
+    }
+
+    .col-2 p {
+        font-size: 1rem;
+    }
+
+    .second__container--secondImg {
+        grid-column: 7/9;
+    }
+
+    .navBar {
+        padding-left: 15rem;
+    }
+
+    .buttons {
+        grid-column: 6/9;
+        background-color: #fff;
+        left: 0;
+    }
+
+    .btn {
+        width: 107px;
+        height: 90px;
+    }
+
+    .contentBx {
+        background-color: #fff;
+    }
+
+    .hero {
+        padding: 2rem 5rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+
+
 @media only screen and (max-width: 1050px) {
   .hero {
     padding: 1rem 3rem;
@@ -10,6 +164,10 @@
   .col-2 {
     padding: 0 2rem;
   }
+
+  .navBar-btn {
+    display: none;
+}
 }
 
 
@@ -96,6 +254,10 @@
     .col-2 p {
         font-size: 1rem;
         line-height: 1.4rem;
+    }
+
+    .navBar-btn {
+        display: none;
     }
 
 }
